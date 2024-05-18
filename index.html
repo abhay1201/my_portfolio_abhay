@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My potfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Abhay kumar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> Abhay kumar</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Interests" onclick="toggleMenu()">Interests</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+
+        </div>
+    </nav>
+    <section id="Home">
+        <div class="section__pic-container">
+          <img src="./profile pic.jpg" alt="Abhay profile picture" />
+          <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Abhay Kumar</h1>
+          <p class="section__text__p2">Web Designer</p>
+        </div>
+        
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./resume-example.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+        </div>
+          <div id="socials-container">
+            <img
+              src="./linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://https://www.linkedin.com/in/abhay-kumar-968155218//'"
+            />
+            <img
+              src="./github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+        </div>
+      </section>
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            
+          <div class="section__pic-container">
+            <img
+              src="./DSC_0126.JPG"
+              alt="Profile picture"
+              class="about-pic"
+              />
+          </div>
+            <div class="text-container">
+              <p>
+               <h3>I'm Abhay</h3> 
+                Hello folks!, I am an undergraduate student at <b>IIT ROORKEE</b>, Pursuing my <b>B.Tech degree in Electrical Engineering Department</b> . I belong from west Champaran,Bihar.My hobbies includes Photography and videography,playing cricket. I am Keenly interested in Data Structures and Algorithms,competitive programming,web Development and UI&UX Design. i like learning new skills
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+<section id="Interests">
+    <h1 class="tittle12"> My interests</h1>
+    <div class="btn-container-2">
+        <div class="btn-group">
+          <button class="btn-btn-color-3">Web Development</button>
+        </div>
+        <div class="btn-group">
+          <button class="btn-btn-color-3">Data Structures & Algorithms</button>
+        </div>
+        <div class="btn-group">
+          <button class="btn-btn-color-3">Competitive Programming</button>
+        </div>
+        <div class="btn-group">
+          <button class="btn-btn-color-3">UI & UX Design</button>
+        </div>
+        <div class="btn-group">
+          <button class="btn-btn-color-3">Photography and Videography</button>
+        </div>
+      </div>
+</section>
+<section id="projects">
+    <h1 class="tittle12"> My works</h1>
+    <p class="section22"> will be updated soon</p>
+</section>
+<section id="contacts">
+    <h1 class="tittle23"> Contact me </h1>
+    <div id="socials-container">
+        <img
+          src="./linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          onclick="location.href='https://https://www.linkedin.com/in/abhay-kumar-968155218//'"
+        />
+        <img
+          src="./Instagram_logo_2022.svg.webp"
+          alt="My instagram profile"
+          class="icon"
+          onclick="location.href='https://https://www.instagram.com/staggered_abhay/'"
+        />
+        <img
+          src="./email.png"
+          alt="My email "
+          class="icon"
+          onclick="location.href='https://abhayaditya327@gmail.com/'"
+        />
+      </div>
+</section>
+
+<p class="tittle43"> made with <img src="./red-heart-emoji-2048x1879-8wl1z711.png" class="icons" /> by Abhay</p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
